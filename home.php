@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koperasi Simpan Pinjam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="boxicons-2.0.9/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+</head>
+<body id="home">
+
+    <div class="scroll-up-btn">
+        <i class="bx bx-up-arrow-alt bx-sm"></i>
+    </div>
+    <div class="showcase">
+        <!-- navbar top section -->
+
+        <div class="navbar-top">
+            <ul class="left">
+                <li><a href="#">Malang Jawa Timur</a></li>
+                <li><a href="#"><i class="bx bxs-time bx-xs"></i> Mon - sat: 8:00 - 10:00</a></li>
+                <li><a href="#"><i class="bx bxs-map bx-xs"></i> Universitas Merdeka Malang</a></li>
+                <li><a href="#"><i class="bx bxs-phone bx-xs"></i> +1-700-896-002-34</a></li>
+            </ul>
+            <ul class="right">
+                <li><a href="#"><i class="bx bxl-twitter bx-xs"></i></a></li>
+                <li><a href="#"><i class="bx bxl-pinterest-alt bx-xs"></i></a></li>
+                <li><a href="#"><i class="bx bxl-facebook bx-xs"></i></a></li>
+                <li><a href="#"><i class="bx bxl-instagram-alt bx-xs"></i></a></li>
+            </ul>
+        </div>
+
+        <!-- navbar bottom section -->
+       <div class="navbar-bottom">
+            <a href="#home" class="brand-left">CoopLoan</a>
+            <ul class="menu-right">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#teams">Teams</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="register.html">Registrasi</a></li>
+                <li><a href="logout.php">Logout</a></li>
+                <li><a href="#"><i class="bx bx-search bx-sm" id="search-btn"></i></a></li>
+            </ul>
+            <div class="search-form">
+                <input type="search" name="search-box" id="search-box" placeholder="search here...">
+                <label for="search-box" class="bx bx-search bx-sm"></label>
+            </div>
+       </div>
+
+       <!-- Showcase content Section -->
+       <div class="showcase-content">
+           <h1>We Deliver Digital <br> Cooperatives <span> & Loans </span></h1>
+           <p>We are a savings and loan company designed for Private Equity, Family Offices<br> and Growth Stage Companies seeking to maximize results</p>
+           <a href="simpanpinjam.html" class="btn btn-left">Simpan atau Pinjam <br> Sekarang Juga! </a>
+       </div>
+    </div>
+
+    <!-- Services / Goal Section  -->
+
+    <section id="services" class="bg-light py-3">
+        <div class="wrapper">
+            <div class="items">
+                <div class="item">
+                    <i class="fa-solid fa-credit-card fa-2xl"></i>
+                    <h3>Produk Simpanan</h3>
+                    <p>Simpanan awal sebagai persyaratan menjadi anggota di Koperasi Syariah Nuri Jawa Timur dengan simpanan awal Rp.50.000</p>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-money-check-dollar fa-2xl"></i>
+                    <h3>Produk Pinjaman</h3>
+                    <p>Kami menawarkan proses pengajuan pinjaman yang cepat dan mudah, sehingga nasabah dapat memperoleh dana pinjaman dengan cepat tanpa banyak kerumitan.</p>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-hand-holding-dollar fa-2xl"></i>
+                    <h3>Produk Pembiayaan</h3>
+                    <p>Pembiayaan dengan akad rahn (gadai syariah) ini merupakan solusi tepat kebutuhan cepat yang sesuai syariah.</p>
+                </div>
+                <div class="item">
+                    <i class="fa-sharp fa-solid fa-headset fa-2xl"></i>
+                    <h3>Layanan Khusus</h3>
+                    <p>Layanan khusus/bantuan</p>
+                </div>
+            </div>
+            <div id="goal" class="goal">
+                <div class="goal-img">
+                    <img src="/images/photo1.jpg">
+                </div>
+                <div class="goal-text">
+                    <a href="#">prioritas kami</a>
+                    <h2>Investment Banking & <br> Capital Market</h2>
+                    <div class="contents">
+                        <div class="content p-4">
+                            <i class="bx bx-check bx-sm"></i>
+                        </div>
+                        <div class="content p-4">
+                            <h3>Visi Koperasi</h3>
+                            <p>Menjadi koperasi simpan pinjam yang terpercaya dan berperan aktif dalam pemberdayaan ekonomi anggota, <br>dengan fokus pada keberlanjutan dan kemakmuran bersama.</p>
+                        </div>
+                    </div>
+                    <div class="contents">
+                        <div class="content p-4">
+                            <i class="bx bx-check bx-sm"></i>
+                        </div>
+                        <div class="content p-4">
+                            <h3>Misi Koperasi</h3>
+                            <p>Menyediakan produk dan layanan simpan pinjam yang sesuai dengan kebutuhan anggota, <br> serta memberikan solusi finansial yang kreatif dan berkelanjutan.</p>
+                        </div>
+                    </div>
+                    <div class="contents">
+                        <div class="content p-4">
+                            <i class="bx bx-check bx-sm"></i>
+                        </div>
+                        <div class="content p-4">
+                            <h3>Mengapa harus menjadi anggota dikoperasi cooploan?</h3>
+                            <p>Sebagai anggota CoopLoan, Anda akan mendapatkan akses mudah <br>ke berbagai produk dan layanan keuangan yang ditawarkan oleh koperasi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio py-3">
+        <h3 class="text-center">Cooperative Portfolio</h3>
+        <h2 class="text-center">Our Latest <span class="text-secondary">Case Studies</span> </h2>
+        <p class="text-center">We help you see the world differently, discover opportunities you may never have <br> imagined and achieve results that bridge what is with what can be</p>
+        <div class="owl-carousel">
+            <div class="item"><img src="./images/photo2.jpg"></div>
+            <div class="item"><img src="./images/photo3.jpg"></div>
+            <div class="item"><img src="./images/photo4.jpg"></div>
+            <div class="item"><img src="./images/photo5.jpg"></div>
+            <div class="item"><img src="./images/photo6.jpg"></div>
+            <div class="item"><img src="./images/photo7.jpg"></div>
+            <div class="item"><img src="./images/photo8.jpg"></div>
+            <div class="item"><img src="./images/photo9.jpg"></div>
+            <div class="item"><img src="./images/photo10.jpg"></div>
+            <div class="item"><img src="./images/photo11.jpg"></div>
+            <div class="item"><img src="./images/photo12.jpg"></div>
+            <div class="item"><img src="./images/photo13.jpg"></div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="teams" class="teams bg-light py-3">
+        <h3 class="text-center">We are there for you</h3>
+        <h2 class="text-center">Meet Our <span class="text-secondary">Professional Team</span></h2>
+        <p class="text-center">We help you see the world differently, discover opportunities you may never have <br> imagined and achieve results that bridge what is with what can be</p>
+        <div class="wrapper">
+            <div class="card-items">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="/images/cynthia.jpg">
+                    </div>
+                    <div class="card-body">
+                        <h3>Cynthia Spears</h3>
+                        <h4>Chief Communication Officer</h4>
+                        <ul>
+                            <li><a href="#"><i class="bx bxl-twitter bx-xs"></i></a></li>
+                            <li><a href="#"><i class="bx bxl-pinterest-alt bx-xs"></i></a></li>
+                            <li><a href="#"><i class="bx bxl-facebook bx-xs"></i></a></li>
+                            <li><a href="#"><i class="bx bxl-instagram-alt bx-xs"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="/images/vera.jpg">
+                    </div>
+                    <div class="card-body">
+                        <h3>Vera Monica</h3>
+                        <h4>Chief Business Project</h4>
+                        <ul>
+                            <li><a href="#"><i class="bx bxl-twitter bx-xs"></i></a></li>
+                            <li><a href="#"><i class="bx bxl-pinterest-alt bx-xs"></i></a></li>
+                            <li><a href="#"><i class="bx bxl-facebook bx-xs"></i></a></li>
+                            <li><a href="#"><i class="bx bxl-instagram-alt bx-xs"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="/images/kevin.jpg">
+                    </div>
+                    <div class="card-body">
+                        <h3>Kevin Philips</h3>
+                        <h4>International Consultant</h4>
+                        <ul>
+                            <li><a href="#"><i class="bx bxl-twitter bx-xs"></i></a></li>
+                            <li><a href="#"><i class="bx bxl-pinterest-alt bx-xs"></i></a></li>
+                            <li><a href="#"><i class="bx bxl-facebook bx-xs"></i></a></li>
+                            <li><a href="#"><i class="bx bxl-instagram-alt bx-xs"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="/images/augusta.jpg">
+                    </div>
+                    <div class="card-body">
+                        <h3>Augusta Brian</h3>
+                        <h4>Co-Founder of Company</h4>
+                        <ul>
+                            <li><a href="#"><i class="bx bxl-twitter bx-xs"></i></a></li>
+                            <li><a href="#"><i class="bx bxl-pinterest-alt bx-xs"></i></a></li>
+                            <li><a href="#"><i class="bx bxl-facebook bx-xs"></i></a></li>
+                            <li><a href="#"><i class="bx bxl-instagram-alt bx-xs"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Blog Section -->
+    <section id="blog" class="blog py-3">
+        <div class="wrapper">
+            <div class="header">
+                <span></span>
+                <h4>cooperation blog</h4>
+            </div>
+            <div class="blog-info">
+                <h2>Read Our <span class="text-secondary">Latest Insights</span></h2>
+                <a href="#">view all</a>
+            </div>
+            <div class="blog-card">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="/images/blog1.jpg">
+                    </div>
+                    <div class="card-body">
+                        <span class="tag tag-yellow">Business</span>
+                        <h4>Contactless Payments' <br> Time has come</h4>
+                        <div class="footer">
+                            <small>April 7, 2022 / 5 comments</small>
+                            <a href="#"><i class="bx bx-right-arrow-alt bx-sm"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="/images/blog2.jpg">
+                    </div>
+                    <div class="card-body">
+                        <span class="tag tag-purple">Finance</span>
+                        <h4>The Future of Retail: <br> Europe's Ecosystems</h4>
+                        <div class="footer">
+                            <small>April 11, 2022 / 20 comments</small>
+                            <a href="#"><i class="bx bx-right-arrow-alt bx-sm"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="/images/blog3.jpg">
+                    </div>
+                    <div class="card-body">
+                        <span class="tag tag-pink">Marketiing</span>
+                        <h4>Digital Transformation <br> Roadmap: Enablers</h4>
+                        <div class="footer">
+                            <small>April 30, 2022 / 10 comments</small>
+                            <a href="#"><i class="bx bx-right-arrow-alt bx-sm"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="contact" class="contact bg-secondary py-3">
+        <h2 class="text-center">Hubungi kami disini</h2>
+        <p class="text-center">Jika anda memiliki masalah akses silahkan tulis dibawah ini.</p>
+        <div class="wrapper">
+            <form class="text-center">
+                <input type="message" name="message" id="message" placeholder="">
+                <button class="button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-bottom py-3 text-center">
+        <p>dibuat oleh Jidan tampan.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/dff716022e.js" crossorigin="anonymous"></script>
+</body>
+</html>

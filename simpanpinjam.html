@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Simpanan dan Pinjaman</title>
+    <link rel="stylesheet" type="text/css" href="simpanpinjam.css">
+    <!-- <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"] {
+            padding: 5px;
+            width: 100%;
+        }
+
+        .currency-input::before {
+            content: "Rp";
+            position: absolute;
+            margin-left: 5px;
+            margin-top: 5px;
+            font-weight: bold;
+        }
+
+        .currency-input {
+            padding-left: 30px;
+        }
+
+        .form-group input[type="text"].currency-input {
+            text-align: right;
+        }
+
+        button[type="submit"] {
+            padding: 8px 16px;
+            background-color: #62c46c;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #509c57;
+        } -->
+    </style>
+    <!-- <script>
+        function formatCurrency(input) {
+            var value = input.value;
+
+            // Menghapus semua karakter kecuali angka
+            value = value.replace(/[^0-9]/g, '');
+
+            // Menambahkan titik sebagai pemisah ribuan
+            value = value.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+
+            // Menambahkan "Rp" pada awal nilai
+            value = 'Rp ' + value;
+
+            // Mengupdate nilai pada input
+            input.value = value;
+        }
+    </script> -->
+</head>
+<body>
+    <div class="container">
+        <h2>Form Simpanan dan Pinjaman</h2>
+        <form action="process.php" method="POST">
+            <div class="form-group">
+                <label for="nama_anggota">Nama Anggota:</label>
+                <input type="text" id="nama_anggota" name="nama_anggota" required>
+            </div>
+            <div class="form-group">
+                <label for="jml_simpanan">Jumlah Simpanan:</label>
+                <input type="text" id="jml_simpanan" name="jml_simpanan" class="currency-input" oninput="formatCurrency(this)">
+            </div>
+            <div class="form-group">
+                <button type="submit" name="simpanan_btn">Tambah Simpanan</button>
+            </div>
+            <div class="form-group">
+                <label for="jml_pinjaman">Jumlah Pinjaman:</label>
+                <input type="text" id="jml_pinjaman" name="jml_pinjaman" class="currency-input" oninput="formatCurrency(this)">
+            </div>
+            <div class="form-group">
+                <button type="submit" name="pinjaman_btn">Ajukan Pinjaman</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
